@@ -13,6 +13,7 @@
 		0B2D93D31C881AE4006B7A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D93D11C881AE4006B7A76 /* Main.storyboard */; };
 		0B2D93D51C881AE4006B7A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D93D41C881AE4006B7A76 /* Assets.xcassets */; };
 		0B2D93D81C881AE4006B7A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D93D61C881AE4006B7A76 /* LaunchScreen.storyboard */; };
+		0B2D93E31C882DDA006B7A76 /* cityData 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D93E21C882DDA006B7A76 /* cityData 3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0B2D93D41C881AE4006B7A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B2D93D71C881AE4006B7A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B2D93D91C881AE4006B7A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2D93E21C882DDA006B7A76 /* cityData 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cityData 3.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0B2D93CC1C881AE4006B7A76 /* AppDelegate.m */,
 				0B2D93CE1C881AE4006B7A76 /* ViewController.h */,
 				0B2D93CF1C881AE4006B7A76 /* ViewController.m */,
+				0B2D93E21C882DDA006B7A76 /* cityData 3.plist */,
 				0B2D93D11C881AE4006B7A76 /* Main.storyboard */,
 				0B2D93D41C881AE4006B7A76 /* Assets.xcassets */,
 				0B2D93D61C881AE4006B7A76 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2D93E31C882DDA006B7A76 /* cityData 3.plist in Resources */,
 				0B2D93D81C881AE4006B7A76 /* LaunchScreen.storyboard in Resources */,
 				0B2D93D51C881AE4006B7A76 /* Assets.xcassets in Resources */,
 				0B2D93D31C881AE4006B7A76 /* Main.storyboard in Resources */,

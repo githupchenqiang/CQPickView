@@ -1,0 +1,46 @@
+//
+//  CQHeader.pch
+//  Contact
+//
+//  Created by lanou3g on 15/8/11.
+//  Copyright (c) 2015年 CQ. All rights reserved.
+//
+
+#ifndef Contact_CQHeader_pch
+#define Contact_CQHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕宽度
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+
+//屏幕高度
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//安全释放
+#define SAFE_RELEASE(obj) [obj release];obj = nil
+
+
+//文件路径
+#define PATH     [[NSBundle mainBundle]pathForResource:@"BJS150622" ofType:@"plist"]
+
+
+#define kkk 10
+
+#import  "person.h"
+#import "ListTableViewController.h"
+#import "DateHandle.h"
+#import "AddContactView.h"
+#import "MaleTableViewCell.h"
+#import "FemaleTableViewCell.h"
+#import "DateHandle.h"
+#import "AddContactView.h"
+#import "DateView.h"
+#import "pinyin.h"
+#import "CQHeader.pch"
+
+
+
+
+#endif
