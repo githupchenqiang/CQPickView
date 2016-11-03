@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6ED8C77679F82557EE10990D0C435C78BFA9E9D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD3AD43FE137E91D448531470911B61F3D03A0C1" : 9223372036854775807,
+    "6ED8C77679F82557EE10990D0C435C78BFA9E9D3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "569034AB-FBC2-404E-91A0-B0F4D6D6A2A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD3AD43FE137E91D448531470911B61F3D03A0C1" : "",
+    "6ED8C77679F82557EE10990D0C435C78BFA9E9D3" : "customPicker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CQPickView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CQPickView\/CQPickView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/githupchenqiang\/CQPickView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6ED8C77679F82557EE10990D0C435C78BFA9E9D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/githupchenqiang\/CQAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD3AD43FE137E91D448531470911B61F3D03A0C1"
+    }
+  ]
+}
