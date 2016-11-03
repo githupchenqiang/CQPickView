@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UserLocation.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *Nav = [[UINavigationController alloc]initWithRootViewController:[UserLocation new]];
+    self.window.rootViewController = Nav;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

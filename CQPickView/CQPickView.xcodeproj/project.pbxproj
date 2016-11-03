@@ -15,6 +15,7 @@
 		0B2D93D81C881AE4006B7A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D93D61C881AE4006B7A76 /* LaunchScreen.storyboard */; };
 		0B2D93E31C882DDA006B7A76 /* cityData 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D93E21C882DDA006B7A76 /* cityData 3.plist */; };
 		3EF980301DCB272A00306DC6 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9802F1DCB272A00306DC6 /* CustomPickerView.m */; };
+		3EF980331DCB2AC800306DC6 /* UserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF980321DCB2AC800306DC6 /* UserLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		0B2D93E21C882DDA006B7A76 /* cityData 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cityData 3.plist"; sourceTree = "<group>"; };
 		3EF9802E1DCB272A00306DC6 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
 		3EF9802F1DCB272A00306DC6 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
+		3EF980311DCB2AC800306DC6 /* UserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocation.h; sourceTree = "<group>"; };
+		3EF980321DCB2AC800306DC6 /* UserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				0B2D93CF1C881AE4006B7A76 /* ViewController.m */,
 				3EF9802E1DCB272A00306DC6 /* CustomPickerView.h */,
 				3EF9802F1DCB272A00306DC6 /* CustomPickerView.m */,
+				3EF980311DCB2AC800306DC6 /* UserLocation.h */,
+				3EF980321DCB2AC800306DC6 /* UserLocation.m */,
 				0B2D93E21C882DDA006B7A76 /* cityData 3.plist */,
 				0B2D93D11C881AE4006B7A76 /* Main.storyboard */,
 				0B2D93D41C881AE4006B7A76 /* Assets.xcassets */,
@@ -118,6 +123,7 @@
 				TargetAttributes = {
 					0B2D93C41C881AE4006B7A76 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6KFS25Y962;
 					};
 				};
 			};
@@ -160,6 +166,7 @@
 			files = (
 				0B2D93D01C881AE4006B7A76 /* ViewController.m in Sources */,
 				3EF980301DCB272A00306DC6 /* CustomPickerView.m in Sources */,
+				3EF980331DCB2AC800306DC6 /* UserLocation.m in Sources */,
 				0B2D93CD1C881AE4006B7A76 /* AppDelegate.m in Sources */,
 				0B2D93CA1C881AE4006B7A76 /* main.m in Sources */,
 			);
@@ -273,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KFS25Y962;
 				INFOPLIST_FILE = CQPickView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQPickView;
@@ -284,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KFS25Y962;
 				INFOPLIST_FILE = CQPickView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQPickView;
