@@ -22,10 +22,47 @@
 {
     [super viewDidLoad];
     
+    //聊天气泡
+    
+    [self initBuble];
+   }
+
+
+
+- (void)initBuble
+{
+    CGRect rect = CGRectMake(100, 100, 200, 20);
+
+    UIImageView *image = [[UIImageView alloc]initWithFrame:rect];
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    layer.frame = image.bounds;
+    layer.contents = (id)[UIImage imageNamed:@"气泡"].CGImage;
+    layer.contentsCenter = CGRectMake(0.5, 0.5, 0.1, 0.1);
+    layer.contentsScale = [UIScreen mainScreen].scale;
+    
+    image.layer.mask = layer;
+    image.layer.frame = image.frame;
+    image.image = [UIImage imageNamed:@"2"];
+    [self.view addSubview:image];
+    
+    UILabel *label = [[UILabel alloc]init];
+    label.frame = CGRectMake(0, 0,image.frame.size.width, 20);
+    label.text = @"案发可否把加班";
+    
+    
+    
+    [image addSubview:label];
+    
+}
+
+
+
+- (void)initCoreLocaltion
+{
     if ([CLLocationManager locationServicesEnabled]) {
         
         if (!_locationManager) {
-    
+            
             self.locationManager = [[CLLocationManager alloc]init];
             if ([_locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
                 [_locationManager requestWhenInUseAuthorization];
@@ -37,15 +74,15 @@
             }
             
         }
-      
-
+        
+        
     }else
     {
         UIAlertController *alertControl = [UIAlertController alertControllerWithTitle:@"提示!" message:@"没有位置权限" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *Cancleaction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             
         }];
-       
+        
         UIAlertAction *quedingAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             
         }];
@@ -54,7 +91,9 @@
         [alertControl addAction:quedingAction];
         [self presentViewController:alertControl animated:YES completion:nil];
     }
+
 }
+
 
 
 
